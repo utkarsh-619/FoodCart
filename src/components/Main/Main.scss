@@ -1,0 +1,34 @@
+.main {
+  width: 100%;
+  position: relative;
+  height: 300px;
+  background-image: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_73,ar_16:9,w_768/v1/img/recipes/12/03/0/FOfDQtsPSESM8I0jAEob_peppersteak.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+
+  .about{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    margin: 0px auto;
+    top: 60px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 25px 40px;
+    
+    h4{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    
+    p{
+        
+        font-size: 17px;
+        margin-bottom: 30px;
+        color: gray;
+    }
+  }
+}
