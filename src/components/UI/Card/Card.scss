@@ -1,0 +1,61 @@
+.card {
+  width: 100%;
+  padding: 10px 40px;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.25);
+    padding: 10px 0px;
+
+    .left {
+      .name {
+        font-size: 23px;
+        font-weight: 900;
+      }
+
+      .discripction {
+        font-size: 14px;
+        color: gray;
+      }
+
+      .price {
+        font-size: 25px;
+        font-weight: 900;
+        color: goldenrod;
+        margin-top: 6px;
+      }
+    }
+
+    .right {
+      h5 {
+        display: inline;
+        font-size: 16px;
+        margin-right: 20px;
+      }
+      input {
+        text-align: center;
+        width: 30px;
+        outline: none;
+        border: 1px solid black;
+        padding: 1px 4px;
+        border-radius: 2px;
+        font-weight: 700;
+
+
+        /* Chrome, Safari, Edge, Opera */
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+
+        /* Firefox */
+        &[type="number"] {
+          -moz-appearance: textfield;
+        }
+      }
+    }
+  }
+}
