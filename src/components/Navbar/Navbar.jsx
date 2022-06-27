@@ -1,33 +1,34 @@
 import "./Navbar.scss";
-import ReactDOM from "react-dom";
-import PopUp from "../UI/CartPopUp/PopUp"
+import PopUp from "../UI/CartPopUp/PopUp";
 
 import { FaShoppingCart } from "react-icons/fa";
-// import { useState } from "react";
+import { useState } from "react";
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-  // const [isPopUp, setIsPopUp] = useState(false);
-
-
-
-  // const popUpHanddler = ()=>{
-    ReactDOM.createPortal(<>helo</>, document.getElementById('popup'))
-  // }
+  const getTotalNum = () => {
+    let total = 0;
+    
+    for(let i=0;i<props.dishDetail.length;i++)
+      total+=props.dishDetail[i].amount;
+      
+    return total
+  }
 
   return (
-
     <nav>
-        <h1>ReactMeals</h1>
-        <div className="cart" onClick={""}>
-            <div className="cartHeading">
-                <FaShoppingCart className="cartIcon"/>
-                <h3>Your Cart</h3>
-            </div>
-            <div className="dishCount">5</div>
+      {isOpen && <PopUp handleClose={()=>{setIsOpen(false)}} array={props.dishDetail} setArray={props.setDishDetail}/>}
+      <h1>ReactMeals</h1>
+      <div className="cart" onClick={()=>setIsOpen(true)}>
+        <div className="cartHeading">
+          <FaShoppingCart className="cartIcon" />
+          <h3>Your Cart</h3>
         </div>
+        <div className="dishCount">{getTotalNum()}</div>
+      </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

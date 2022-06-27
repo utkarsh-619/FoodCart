@@ -1,6 +1,7 @@
 .card {
   width: 100%;
   padding: 10px 40px;
+  
 
   .container {
     display: flex;
@@ -45,16 +46,16 @@
 
 
         /* Chrome, Safari, Edge, Opera */
-        &::-webkit-outer-spin-button,
-        &::-webkit-inner-spin-button {
-          -webkit-appearance: none;
-          margin: 0;
-        }
+        // &::-webkit-outer-spin-button,
+        // &::-webkit-inner-spin-button {
+        //   -webkit-appearance: none;
+        //   margin: 0;
+        // }
 
         /* Firefox */
-        &[type="number"] {
-          -moz-appearance: textfield;
-        }
+        // &[type="number"] {
+        //   -moz-appearance: textfield;
+        // }
       }
     }
   }

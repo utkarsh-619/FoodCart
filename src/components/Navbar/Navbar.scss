@@ -37,8 +37,10 @@ nav{
         }
 
         .dishCount{
-            padding: 2px 15px;
+            width: 50px;
+            overflow: hidden;
             border-radius: 20px;
+            text-align: center;
             background-color: #a23d19;
             font-size: 18px;
         }

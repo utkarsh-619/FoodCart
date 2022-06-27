@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   margin-bottom: 100px;
 
-  .about{
+  .about {
     position: relative;
     width: 700px;
     height: 300px;
@@ -18,17 +18,20 @@
     border-radius: 20px;
     text-align: center;
     padding: 25px 40px;
-    
-    h4{
-        font-size: 30px;
-        margin-bottom: 30px;
+
+    -webkit-box-shadow: 16px 14px 14px 11px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 16px 14px 14px 11px rgba(0, 0, 0, 0.4);
+    box-shadow: 16px 14px 14px 11px rgba(0, 0, 0, 0.4);
+
+    h4 {
+      font-size: 30px;
+      margin-bottom: 30px;
     }
-    
-    p{
-        
-        font-size: 17px;
-        margin-bottom: 30px;
-        color: gray;
+
+    p {
+      font-size: 17px;
+      margin-bottom: 30px;
+      color: gray;
     }
   }
 }

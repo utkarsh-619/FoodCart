@@ -1,11 +1,18 @@
-import Card from "../Card/Card";
+import Card from "../UI/Card/Card";
 
 import "./List.scss"
 
 
 const  List = (props) => {
   const createList = (data, idx) => {
-    return <Card key={idx} data={data} />
+    return (
+      <Card
+        key={idx}
+        array={props.dishDetail}
+        data={data}
+        setDetail={props.setDishDetail}
+      />
+    );
   }
 
   return (
