@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/FoodCart/static/css/main.99e3dd1b.chunk.css",
+    "main.js": "/FoodCart/static/js/main.6af50258.chunk.js",
+    "main.js.map": "/FoodCart/static/js/main.6af50258.chunk.js.map",
+    "runtime-main.js": "/FoodCart/static/js/runtime-main.7433c6f9.js",
+    "runtime-main.js.map": "/FoodCart/static/js/runtime-main.7433c6f9.js.map",
+    "static/js/2.2abbcacf.chunk.js": "/FoodCart/static/js/2.2abbcacf.chunk.js",
+    "static/js/2.2abbcacf.chunk.js.map": "/FoodCart/static/js/2.2abbcacf.chunk.js.map",
+    "index.html": "/FoodCart/index.html",
+    "static/css/main.99e3dd1b.chunk.css.map": "/FoodCart/static/css/main.99e3dd1b.chunk.css.map",
+    "static/js/2.2abbcacf.chunk.js.LICENSE.txt": "/FoodCart/static/js/2.2abbcacf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7433c6f9.js",
+    "static/js/2.2abbcacf.chunk.js",
+    "static/css/main.99e3dd1b.chunk.css",
+    "static/js/main.6af50258.chunk.js"
+  ]
+}
